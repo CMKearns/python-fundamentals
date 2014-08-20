@@ -7,6 +7,8 @@
 
 print "I was run - maybe by a test?"
 
+module_var = "I am totally defined"
+
 if __name__ == '__main__':
 
     # The problem is that this variable needs to be defined OUTSIDE the if
@@ -14,6 +16,6 @@ if __name__ == '__main__':
     # test?
 
     # Don't forget to fix the indentation!
-    module_var = "I am totally defined"
+    # module_var = "I am totally defined"
     print "I'm being run directly"
     print "And module_var is:", module_var

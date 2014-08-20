@@ -5,7 +5,10 @@ sally_age = 12
 john_age = 21
 
 def can_drink(age):
-    return False # Again - make this depend on the age!
+    if age<21:
+        return False # Again - make this depend on the age!
+    else:
+        return True
 
 print "Sally can drink?", can_drink(sally_age)
 print "John can drink?", can_drink(john_age)
@@ -15,7 +18,12 @@ print "John can drink?", can_drink(john_age)
 
 def enforce(name, age, is_drinking):
     # Replace "pass" with some logic to test things out
-    pass
+    if is_drinking == True:
+        print 'Checking', name+'!'
+        if age>=21:
+            print "OK!"
+        else:
+            print "This isn't right!"
     # When you check,
     # print "Checking Name!"
     # (you'll need to set the name)
@@ -34,6 +42,8 @@ charles_age = 22
 charles_is_drinking = True
 
 enforce(alice_name, alice_age, alice_is_drinking)
+enforce(bob_name, bob_age, bob_is_drinking)
+enforce(charles_name, charles_age, charles_is_drinking)
 # And so on - do this for Bob and Charles!
 
 # That should've been a LOT less typing!

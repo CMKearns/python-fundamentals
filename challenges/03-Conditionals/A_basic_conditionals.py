@@ -14,8 +14,10 @@ john_can_drink = False
 ## Remember, we're playing it safe - so we should never say sally_can_drink is
 ## True!
 
-if False: # conditionals take True or False
+if sally_age>=21: # conditionals take True or False
     sally_can_drink = True
 
 ## And please take care of john!
 
+if john_age>=21:
+    john_can_drink = True

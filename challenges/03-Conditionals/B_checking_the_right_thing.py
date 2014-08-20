@@ -18,12 +18,26 @@ charles_is_drinking = True
 ## Note that the tests for the below are very picky about the *exact* output,
 ## so don't change those strings!
 
-if True: # Again - I'm play it safe and checking everyone, fix this!
+if alice_is_drinking == True: # Again - I'm play it safe and checking everyone, fix this!
     print "Checking Alice"
-    if False: # Check her age
+    if alice_age>=21: # Check her age
         print "OK!"
     else:
         print "This isn't right!"
 
 ## After you fix the above, do the same for Bob and Charles. Be sure to change
 ## the "Checking..." line, but keep everything else the same
+
+if bob_is_drinking == True:
+    print "Checking Bob"
+    if bob_age>=21:
+        print "OK!"
+    else:
+        print "This isn't right!"
+
+if charles_is_drinking == True:
+    print "Checking Charles"
+    if charles_age>=21:
+        print "OK!"
+    else:
+        print "This isn't right!"
