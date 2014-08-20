@@ -7,11 +7,11 @@ from A_defining_strings import your_first_name, your_last_name
 ## name. There's a simple way to do that with a string "method" called .upper()
 
 ## Set cap_last_name to an uppercase version of your_last_name
-
+cap_last_name = your_last_name.upper()
 
 
 ## You can print it to see how it looks
-
+print cap_last_name
 
 
 ## And we'll need to check how long your name is to make sure there's enough
@@ -20,10 +20,10 @@ from A_defining_strings import your_first_name, your_last_name
 
 ## Put the total length of your name in name_len. You can use multiple steps if
 ## you like.
+name_len = len(your_first_name) + 1 + len(your_last_name)
 
 
-
-print "We'll need", "your name_len here", "characters for my name"
+print "We'll need", name_len, "characters for my name"
 
 
 ## Note that we've been using print with commas. This puts a space between each
@@ -32,4 +32,6 @@ print "We'll need", "your name_len here", "characters for my name"
 ## "last name first" version of your name, with a comma separating the two.
 ## For example, I'd be "CLARK, Dav"
 
-print "CLARK, Dav... wait, that's not right!"
+#print "CLARK, Dav... wait, that's not right!"
+
+print cap_last_name+", "+your_first_name

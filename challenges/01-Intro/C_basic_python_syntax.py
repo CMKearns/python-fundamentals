@@ -7,7 +7,7 @@
 ## amount!)
 
 def compute_lucky_number():
-my_lucky_number = 9
-return my_lucky_number
+    my_lucky_number = 9     #Corrected
+    return my_lucky_number  #Corrected
 
 print compute_lucky_number()

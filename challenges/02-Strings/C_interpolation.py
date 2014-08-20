@@ -8,6 +8,10 @@
 
 s = 'this string is %d characters long'
 
+L=len(s)
+
+print 'this string is %L characters long'
+
 ## We can apply values to a string with an expression that goes:
 ## string % value(s)
 ## if there's more than one, put them in ()'s with commas between!
