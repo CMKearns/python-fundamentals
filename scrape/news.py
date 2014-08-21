@@ -1,3 +1,5 @@
+#In chrome, see "Inspect Element" for html code
+
 __author__ = 'oski'
 
 from lxml import html    #Use lxml library's html parser
