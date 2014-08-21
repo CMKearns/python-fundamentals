@@ -6,11 +6,15 @@
 ## can be set up this way to present a value we didn't know when we defined the
 ## string!
 
+"""  %s is a placeholder for string values.
+     %d is a placeholder for numeric values.
+     These are the only valid general placeholders. """
+
 s = 'this string is %d characters long'
 
 L=len(s)
 
-print s%L
+print s % L
 
 ## We can apply values to a string with an expression that goes:
 ## string % value(s)
