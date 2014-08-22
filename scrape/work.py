@@ -1,4 +1,4 @@
-#Web scraping library
+#Run functions from web scraping library
 
 __author__ = 'pangolin'
 
